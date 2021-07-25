@@ -13,7 +13,7 @@
 
             "program": "${file}",
 
-            "terminalKind": "external"
+            "terminalKind": "integrated"
 
         }
 
