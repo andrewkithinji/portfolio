@@ -12,6 +12,7 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
+	
 "Add a shebang": {
 	"scope": "sh",
 	"prefix": "shebang",
@@ -156,7 +157,7 @@
 	"scope": "sh",
 	"prefix": "changecol",
 	"body": [
-		"echo -e \"\\e[option1;option2m{text}\\e[0m\"",
+		"changecol -e \"\\e[option1;option2m{text}\\e[0m\"",
 	],
 	"description": "Prefills echo command ready for output text colour modifications"
 	}
