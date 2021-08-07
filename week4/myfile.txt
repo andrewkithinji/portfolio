@@ -1,0 +1,13 @@
+this is line one
+this is line two
+this is line three
+EOTcat
+cat <<EOT >>myfile.txt
+this is line one
+this is line two
+this is line three
+addtional text
+additional text 2
+
+Additional line 3
+Add more text here
