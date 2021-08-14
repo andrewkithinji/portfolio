@@ -27,4 +27,4 @@ getNumber()
 correct=42 # set correct input value    
 getNumber "please type a number between 1 and 100" 1 100 #Call function with default arguments (1 and 100)
 
-echo "Correct!"
+echo "Right!"
